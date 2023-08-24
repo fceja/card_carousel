@@ -1,6 +1,6 @@
 import CardSlider from "./CardSlider";
 
-const cardInfo = [
+const cardData = [
   {
     image: "https://picsum.photos/200/300",
     title: "This is title",
@@ -28,7 +28,7 @@ const cardInfo = [
 ];
 
 const App = () => {
-  return <CardSlider cards={cardInfo} />;
+  return <CardSlider cardData={cardData} />;
 };
 
 export default App;

@@ -15,15 +15,13 @@ const slideRight = () => {
 };
 
 const CardSlider: React.FC<CardSliderTypes.CardSliderPropsType> = ({
-  cards,
+  cardData: cardData,
 }) => {
   return (
     <div id="main-slider-container">
       <MdChevronLeft className="slider-icon-left" onClick={slideLeft} />
       <div id="card-slider-container">
-        {cards.map((card, index) => (
-          <Card card={card} index={index} key={index} />
-        ))}
+        <Card cardData={cardData} />
       </div>
       <MdChevronRight className="slider-icon-right" onClick={slideRight} />
     </div>

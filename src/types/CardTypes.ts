@@ -6,6 +6,5 @@ export type CardType = {
 };
 
 export type CardPropsType = {
-  card: CardType;
-  index: number;
+  cardData: CardType[];
 };
