@@ -15,22 +15,21 @@
   white-space: nowrap;
   overflow-x: scroll;
   scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-#card-slider-container::-webkit-scrollbar {
-  display: none;
-}
-
-#left-slider-icon {
+[class*="slider-icon"] {
   height: 50px;
   width: 50px;
   border: solid;
-  border-color: orangered;
-}
 
-#right-slider-icon {
-  height: 50px;
-  width: 50px;
-  border: solid;
-  border-color: teal;
+  &[class*="-left"] {
+    border-color: orangered;
+  }
+  &[class*="-right"] {
+    border-color: teal;
+  }
 }
