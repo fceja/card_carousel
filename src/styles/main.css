@@ -1,0 +1,9 @@
+.main {
+    border: dotted;
+    border-color: yellow;
+    width: 90%;
+    height: 100px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
