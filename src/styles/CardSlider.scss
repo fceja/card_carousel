@@ -1,0 +1,36 @@
+#main-slider-container {
+  width: 90%;
+  height: 320px;
+  border: solid;
+  border-color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#card-slider-container {
+  border: solid;
+  border-color: blueviolet;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+#card-slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+#left-slider-icon {
+  height: 50px;
+  width: 50px;
+  border: solid;
+  border-color: orangered;
+}
+
+#right-slider-icon {
+  height: 50px;
+  width: 50px;
+  border: solid;
+  border-color: teal;
+}
