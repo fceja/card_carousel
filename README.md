@@ -1,5 +1,5 @@
 # Description
-Features a card carousel.
+Features a scrollable carousel with cards.
 
 <br/>
 
